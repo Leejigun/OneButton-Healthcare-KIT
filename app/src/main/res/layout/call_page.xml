@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+		android:id="@+id/nameText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:textSize="30dp"
+		android:textColor="@android:color/holo_green_dark" />
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/calllayout">
+	<WebView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="invisible"
+		android:id="@+id/callweb">
+
+	</WebView>
+	<Button
+		android:id="@+id/callButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+	    android:textSize="30dp"
+		android:layout_marginTop="200dp"
+	    android:focusable="false"
+	    />
+	</FrameLayout>
+</LinearLayout>
