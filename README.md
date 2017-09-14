@@ -94,6 +94,7 @@ Nilay Kumar, and others | Journal of the American Society of Hyperten- sion(JASH
 <br><br>
   ![모바일 로그인 화면](./image/image12.png)
 <br>_[그림 7] 모바일 로그인 화면_
+<br><br>
   ![ PC 로그인 화면](./image/image13.png)
 <br>_[그림 7] PC 로그인 화면_
 
